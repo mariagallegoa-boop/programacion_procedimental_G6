@@ -1,156 +1,146 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
-    />
-    <title>Home Page</title>
-  </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item">MI TIERRA QUERIDA</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css" />
+  <title>Home Page</title>
+</head>
+
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <p class="title is-3 is-spaced">MI TIERRA QUERIDA</p>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item"> Home </a>
+
+        <a class="navbar-item"> Documentation </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> More </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item"> About </a>
+            <a class="navbar-item is-selected"> Jobs </a>
+            <a class="navbar-item"> Contact </a>
+            <hr class="navbar-divider" />
+            <a class="navbar-item"> Report an issue </a>
+          </div>
+        </div>
       </div>
+    </div>
+  </nav>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item"> Home </a>
-
-          <a class="navbar-item"> Documentation </a>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> More </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item"> About </a>
-              <a class="navbar-item is-selected"> Jobs </a>
-              <a class="navbar-item"> Contact </a>
-              <hr class="navbar-divider" />
-              <a class="navbar-item"> Report an issue </a>
+  <div class="columns">
+    <div class="column">
+      <div class="card">
+        <div class="card-content">
+          <a href="modulos/menu.html">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128">
+                  <img src="https://cdn-icons-png.flaticon.com/128/13910/13910786.png" alt="Modulo del Menu" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">MENU</p>
+                <p class="subtitle is-6">
+                  El módulo de menú permite visualizar de forma clara y
+                  organizada todos los productos que ofrece el restaurante,
+                  incluyendo descripciones, precios e imágenes.
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div class="columns">
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <a href="modulos/menu.html">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-128x128">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/128/13910/13910786.png"
-                      alt="Modulo del Menu"
-                    />
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">MENU</p>
-                  <p class="subtitle is-6">
-                    El módulo de menú permite visualizar de forma clara y
-                    organizada todos los productos que ofrece el restaurante,
-                    incluyendo descripciones, precios e imágenes.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <a href="modulos/inventario.html">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-128x128">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/128/12062/12062203.png"
-                      alt="Modulo Inventario"
-                    />
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">INVENTARIO</p>
-                  <p class="subtitle is-6">
-                    El módulo de inventario permite gestionar y controlar los
-                    insumos y productos del restaurante en tiempo real. Facilita
-                    el registro de entradas y salidas, evitando faltantes o
-                    excesos de stock.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="columns">
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <a href="modulos/usuarios.html">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-128x128">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/128/3237/3237472.png"
-                      alt="Modulo de Usuarios"
-                    />
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">USUARIOS</p>
-                  <p class="subtitle is-6">
-                    El módulo de usuarios permite gestionar las cuentas de
-                    acceso al sistema, asignando roles y permisos según las
-                    funciones de cada persona. Facilita la administración segura
-                    de la información y el control de quién puede realizar
-                    determinadas acciones.
-                  </p>
-                </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-content">
+          <a href="modulos/inventario.html">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128">
+                  <img src="https://cdn-icons-png.flaticon.com/128/12062/12062203.png" alt="Modulo Inventario" />
+                </figure>
               </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <a href="modulos/pedidos.html">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-128x128">
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/128/2435/2435292.png"
-                      alt="Modulo de Pedidos"
-                    />
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">PEDIDOS</p>
-                  <p class="subtitle is-6">
-                    El módulo de pedidos permite gestionar de manera eficiente
-                    las órdenes realizadas por los clientes, desde su creación
-                    hasta su entrega. Facilita el seguimiento del estado de cada
-                    pedido y mejora la coordinación entre el personal
-                  </p>
-                </div>
+              <div class="media-content">
+                <p class="title is-4">INVENTARIO</p>
+                <p class="subtitle is-6">
+                  El módulo de inventario permite gestionar y controlar los
+                  insumos y productos del restaurante en tiempo real. Facilita
+                  el registro de entradas y salidas, evitando faltantes o
+                  excesos de stock.
+                </p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <div class="card">
+        <div class="card-content">
+          <a href="modulos/usuarios.html">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128">
+                  <img src="https://cdn-icons-png.flaticon.com/128/3237/3237472.png" alt="Modulo de Usuarios" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">USUARIOS</p>
+                <p class="subtitle is-6">
+                  El módulo de usuarios permite gestionar las cuentas de
+                  acceso al sistema, asignando roles y permisos según las
+                  funciones de cada persona. Facilita la administración segura
+                  de la información y el control de quién puede realizar
+                  determinadas acciones.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-content">
+          <a href="modulos/pedidos.html">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128">
+                  <img src="https://cdn-icons-png.flaticon.com/128/2435/2435292.png" alt="Modulo de Pedidos" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">PEDIDOS</p>
+                <p class="subtitle is-6">
+                  El módulo de pedidos permite gestionar de manera eficiente
+                  las órdenes realizadas por los clientes, desde su creación
+                  hasta su entrega. Facilita el seguimiento del estado de cada
+                  pedido y mejora la coordinación entre el personal
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
 
 <!-- 
