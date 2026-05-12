@@ -1,19 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../css/pedidos.css" />
     <title>Pedidos</title>
-</head>
-<body>
-    <body>
+  </head>
+
+  <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item">
           <p class="title is-3 is-spaced">PEDIDOS</p>
         </a>
-    </div>
+      </div>
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
@@ -24,5 +28,59 @@
         </div>
       </div>
     </nav>
-</body>
+
+    <div class="container">
+      <p class="title is-4 is-spaced">Informacion del Pedido</p>
+      <hr />
+      <input
+        class="input is-info"
+        type="text"
+        placeholder="Direccion"
+        id="direccion"
+      />
+      <input
+        class="input is-info"
+        type="number"
+        placeholder="Telefono"
+        id="Telefono"
+      />
+      <input
+        class="input is-info"
+        type="email"
+        placeholder="Email"
+        id="Email"
+      />
+      <div class="select is-info">
+        <select id="metodo_pago">
+          <option>Efectivo</option>
+          <option>Transferencia</option>
+          <option>Credito</option>
+        </select>
+      </div>
+      <input
+        class="input is-info"
+        type="text"
+        placeholder="Nombre Cliente"
+        id="nombre_cliente"
+      />
+      <input
+        class="input is-info"
+        type="text"
+        placeholder="Referencias"
+        id="referencias"
+      />
+
+      <div class="button is-info is-dark">GUARDAR</div>
+    </div>
+  </body>
 </html>
+
+<!-- 
+Direccion
+Telefono
+Email
+Metodo de Pago
+Pedido
+Nombre 
+Referencias
+-->

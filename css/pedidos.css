@@ -1,0 +1,12 @@
+.container{
+    width: 50%;
+    margin: 5% auto;
+    border: 2px solid white;
+    padding: 5%;
+    border-radius: 5%;
+    text-align: center;
+    border-color: #4258ff;
+}
+.input{
+    margin: 3% auto;
+}
